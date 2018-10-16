@@ -1,0 +1,14 @@
+﻿生成启动时间为 2018/8/16 19:04:30。
+     1>项目“D:\zzy.c\C_迷宫\C_迷宫\C_迷宫.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\比特人\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Stack.c test.c
+         test.c
+         Stack.c
+     1>d:\zzy.c\c_迷宫\c_迷宫\stack.c(40): error C2440: “=”: 无法从“STDataType”转换为“STDataType *”
+     1>d:\zzy.c\c_迷宫\c_迷宫\stack.c(57): error C2440: “初始化”: 无法从“STDataType *”转换为“STDataType”
+         正在生成代码...
+     1>已完成生成项目“D:\zzy.c\C_迷宫\C_迷宫\C_迷宫.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.20

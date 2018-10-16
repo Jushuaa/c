@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{27FAF8DE-6EBB-4AE8-AD69-32A0C27563DE}</ProjectGuid>
-    <RootNamespace>C_双向链表</RootNamespace>
+    <ProjectGuid>{4321416E-82F1-44BC-B78D-9940F0F73E83}</ProjectGuid>
+    <RootNamespace>C_迷宫</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,10 +64,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="list.h" />
+    <ClInclude Include="maze.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="list.c" />
+    <ClCompile Include="maze.c" />
+    <ClCompile Include="Stack.c" />
     <ClCompile Include="test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
