@@ -1,0 +1,19 @@
+﻿生成启动时间为 2018/8/17 12:30:34。
+     1>项目“D:\zzy.c\C_队列1\C_队列1\C_队列1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\比特人\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Queue.c
+         Queue.c
+     1>d:\zzy.c\c_队列1\c_队列1\queue.c(5): warning C4133: “=”: 从“DataType *”到“QueueNode *”的类型不兼容
+     1>d:\zzy.c\c_队列1\c_队列1\queue.c(43): warning C4022: “realloc”: 指针与实参 1 不匹配
+     1>d:\zzy.c\c_队列1\c_队列1\queue.c(88): warning C4047: “=”:“DataType”与“void *”的间接级别不同
+     1>d:\zzy.c\c_队列1\c_队列1\queue.c(94): warning C4550: 表达式计算为缺少参数列表的函数
+     1>d:\zzy.c\c_队列1\c_队列1\queue.c(90): warning C4715: “QueueEmpty”: 不是所有的控件路径都返回值
+       Link:
+         D:\比特人\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\zzy.c\C_队列1\Debug\C_队列1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\zzy.c\C_队列1\Debug\C_队列1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\zzy.c\C_队列1\Debug\C_队列1.lib" /MACHINE:X86 Debug\Queue.obj
+         Debug\TestQueue.obj
+         C_队列1.vcxproj -> D:\zzy.c\C_队列1\Debug\C_队列1.exe
+     1>已完成生成项目“D:\zzy.c\C_队列1\C_队列1\C_队列1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.93
